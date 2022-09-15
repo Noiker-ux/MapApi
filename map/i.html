@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./map_style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="map__block">
+        <div class="container">
+            <div class="map__block-desc">
+                <ul class="map__list">
+                    <li class="map__list-item">Показать все</li>
+                    <li class="map__list-item red"><img src="./img_maps/redMap.png" width="20px" height="20px"> <p> Красные метки</p></li>
+                    <li class="map__list-item"><img src="./img_maps/bluedarkestMap.png" width="20px" height="20px"><p> Синие метки</p></li>
+                    <li class="map__list-item"><img src="./img_maps/blackMap.png" width="20px" height="20px"><p> Черные метки</p></li>
+                    <li class="map__list-item"><img src="./img_maps/orangeMap.png" width="20px" height="20px"><p> Желтые метки</p></li>
+                    <li class="map__list-item"><img src="./img_maps/blueMap.png" width="20px" height="20px"><p> Голубые метки</p></li>                    
+                </ul>
+                <div id="map" class="map"></div>  
+            </div>
+        </div>
+    </div>
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+    crossorigin="anonymous"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"
+    type="text/javascript">
+    </script>
+    <script src="map__init-script.js"></script>
+</body>
+</html>
